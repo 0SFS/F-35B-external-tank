@@ -1,0 +1,15 @@
+{
+  "name": "@0sfs/f-35b-external-tank",
+  "version": "0.1.0",
+  "private": true,
+  "description": "F-35B 425 gal external tank payload mod for 0SFS.",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "exports": {
+    "./manifest": "./public/0sfs-mod.json",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-mod.mjs"
+  }
+}
